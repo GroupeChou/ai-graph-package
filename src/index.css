@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* 重置一些antd样式 */
+.ant-layout {
+  background: #fff;
+}
+
+.ant-layout-header {
+  padding: 0;
+}
+
+.ant-layout-content {
+  background: #f0f2f5;
+}
+
+/* 预设一些标签颜色 */
+.node-category {
+  fill: #1890ff;
+}
+
+.node-entity {
+  fill: #52c41a;
+}
+
+.node-concept {
+  fill: #fa8c16;
+}
+
+.node-property {
+  fill: #722ed1;
+}
+
+/* 图标样式 */
+.anticon {
+  margin-right: 8px;
 }
